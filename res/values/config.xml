@@ -30,12 +30,13 @@
        allows it to work on devices where the content provider has been replaced with a non-standard
        one. -->
   <string-array name="default_corpora_suggest_uris" translatable="false">
-    <item>content://com.android.contacts/search_suggest_query</item>
+<!--     <item>content://com.android.contacts/search_suggest_query</item> -->
   </string-array>
 
   <!-- Names of corpora that are not shown in the corpus selector, even if they are
        enabled in Searchable Items. -->
   <string-array name="hidden_corpora" translatable="false">
+      <item>com.android.contacts/.activities.PeopleActivity</item>
   </string-array>
 
   <!-- The component name of the installed apps source used in QSB  -->

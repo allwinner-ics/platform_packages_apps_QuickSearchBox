@@ -163,8 +163,8 @@ public class SearchWidgetProvider extends BroadcastReceiver {
             if (DBG) Log.d(TAG, "Updating appwidget " + mAppWidgetId);
             RemoteViews views = new RemoteViews(context.getPackageName(), R.layout.search_widget);
 //            // Corpus indicator
-            setOnClickActivityIntent(context, views, R.id.search_icon,
-                    mCorpusIndicatorIntent);
+            //setOnClickActivityIntent(context, views, R.id.search_icon,
+            //        mCorpusIndicatorIntent);
 
             setOnClickActivityIntent(context, views, R.id.search_widget_text,
                     mQueryTextViewIntent);
