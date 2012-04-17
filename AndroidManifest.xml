@@ -90,7 +90,8 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".preferences.SearchableItemsActivity"
+        <!-- <activity android:name=".preferences.SearchableItemsActivity" -->
+        <activity android:name=".preferences.SearchSettingsActivity"
                 android:label="@string/search_sources"
                 android:excludeFromRecents="true">
             <intent-filter>
